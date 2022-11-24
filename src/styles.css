@@ -1,0 +1,15 @@
+:root {
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.element-box {
+  transition: all 0.33s;
+}
+.element-box:hover {
+  transform: scale(1.1);
+}
+.element-box > h2,
+.element-box > p {
+  pointer-events: none;
+}
